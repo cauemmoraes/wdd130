@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #14213d;
+    --secondary-color: #99d6ea;
+    --accent1-color: #ffd85d;
+    --accent2-color: #ffb375;
+
+    --heading-font: "Indie Flower", Serif;
+    --paragraph-font: "Josefin Slab", "Slab Serif";
+
+    --nav-backgroud-color: #ffd85d;
+    --nav-link-color: #14213d;
+    --nav-hover-link-color: #ffff;
+    --nav-hover-background-color: #0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-backgroud-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
