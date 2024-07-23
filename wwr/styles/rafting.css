@@ -37,6 +37,42 @@ h6 {
   color: var(--primary-color);
 }
 
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #ffd85d;
+  max-width: 960px;
+}
+
+.logo {
+  grid-column: 1;
+}
+
+.logo img {
+  margin: 0 0.25rem 0 1rem;
+  width: 100px;
+  height: auto;
+}
+
+.navigation {
+  grid-column: 2/5;
+  text-align: right;
+}
+
+.navigation a {
+  color: var(--primary-color);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navigation a:hover {
+  color: var(--accent2-color);
+  font-weight: 700;
+}
+
 .hero img {
   display: block;
   width: 100%;
@@ -73,7 +109,7 @@ h6 {
   flex: 1;
   margin: 0;
   color: var(--primary-color);
-  font-size: 110%;
+  font-size: 1.1rem;
 }
 
 .hero article img {
@@ -81,4 +117,76 @@ h6 {
   height: auto;
   margin-left: 575px;
   border-radius: 0px;
+}
+
+.story{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--accent2-color);
+}
+
+section h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+  padding: 2px;
+  margin: 5px;
+}
+
+.container p {
+  width: 300px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.box figcaption {
+  margin-top: 5px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid var(--accent1-color);
+  padding: 15px;
+  text-align: center;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sociallinks a{
+  margin-left: 10px;
+}
+
+.sociallinks img {
+  width: 30px;
 }
