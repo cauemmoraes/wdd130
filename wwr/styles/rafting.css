@@ -37,6 +37,8 @@ h6 {
   color: var(--primary-color);
 }
 
+/* header */
+
 header {
   margin: 1rem auto;
   display: grid;
@@ -72,6 +74,8 @@ header {
   color: var(--accent2-color);
   font-weight: 700;
 }
+
+/* header */
 
 .hero img {
   display: block;
