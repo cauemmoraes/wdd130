@@ -152,7 +152,7 @@ section h2 {
   margin: 0 auto;
 }
 
-section {
+section, .section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -193,4 +193,73 @@ footer {
 
 .sociallinks img {
   width: 30px;
+}
+
+/* Contact Us CSS Page */
+
+.hero2 {
+  display: grid;
+}
+
+.contacth1, .hero2 h2 {
+  margin: 0 auto;
+  padding: .5rem;
+  text-align: center;
+}
+
+.hero2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: .5rem;
+  width: auto;
+  background-color: var(--accent1-color);
+}
+
+.map {
+  margin: 0 auto;
+  padding: .5rem;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1rem;
+  border: 1px;
+  padding: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: var(--secondary-color)
 }
