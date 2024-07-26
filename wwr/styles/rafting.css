@@ -217,6 +217,7 @@ footer {
 
 .map {
   margin: 0 auto;
+  border: 0;
   padding: .5rem;
   text-align: center;
   background-color: var(--accent1-color);
