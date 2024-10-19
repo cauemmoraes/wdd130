@@ -49,6 +49,11 @@ header {
   justify-content: space-around;
 }
 
+.navigation a:hover {
+  color: var(--accent2-color);
+  font-weight: 700;
+}
+
 a {
   font-size: 1.2rem;
   font-weight: 700;
@@ -163,6 +168,7 @@ footer {
   align-items: center;
   border-top: 1px solid var(--primary-color);
   padding-top: 10px;
+  margin-top: 20px;
 }
 
 footer p {
@@ -181,4 +187,76 @@ footer p {
 
 .socialmedias img {
   width: 22px;
+}
+
+/* Contact Us CSS Page */
+
+.info {
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5rem;
+  width: auto;
+  background-color: var(--accent1-color);
+}
+
+#contacth1, .info h2 {
+  margin: 0 auto;
+  padding: .5rem;
+  text-align: center;
+}
+
+.map {
+  margin: 0 auto;
+  border: 0;
+  padding: .5rem;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+.employees {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1rem;
+  border: 1px;
+  padding: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: var(--secondary-color)
 }
