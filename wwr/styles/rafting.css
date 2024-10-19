@@ -189,6 +189,8 @@ footer p {
   width: 22px;
 }
 
+/* Footer */
+
 /* Contact Us CSS Page */
 
 .info {
@@ -217,6 +219,7 @@ footer p {
 .employees {
   display: flex;
   justify-content: space-around;
+  margin-block: 10px;
 }
 
 form {
@@ -235,6 +238,12 @@ fieldset {
   margin: 1rem;
   border: 1px;
   padding: 1rem;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 10px;
 }
 
 input,
